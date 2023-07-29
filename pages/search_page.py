@@ -21,7 +21,7 @@ class GoogleSearchPage(PageFactory, BasePage):
     }
 
     def load(self):
-        file = File('../config.json')
+        file = File('data/config.json')
         self.navigate_to(file.get_property("url"))
 
     def perform_search(self, text):
