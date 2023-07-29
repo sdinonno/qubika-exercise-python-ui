@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 @pytest.fixture
 def config(scope='session'):
-    with open('../config.json') as config_file:
+    with open('data/config.json') as config_file:
         config = json.load(config_file)
 
     assert config['browser'] in ['Chrome', 'Headless Chrome']

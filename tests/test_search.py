@@ -1,6 +1,6 @@
 from pages.images_search_page import GoogleImagesResultPage
-from pages.search_page import GoogleSearchPage
 from pages.result_page import GoogleResultPage
+from pages.search_page import GoogleSearchPage
 
 
 def test_perform_google_search(browser):
