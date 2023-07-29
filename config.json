@@ -1,0 +1,9 @@
+{
+    "browser": "Chrome",
+    "url": "https://www.google.com/",
+    "chromeOptions": [
+        "--start-maximized", 
+        "--disable-infobars", 
+        "--disable-extensions"
+    ]
+}
